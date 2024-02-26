@@ -6,6 +6,18 @@ This report presents the findings from an exploratory data analysis and k-means 
 
 ## Exploratory Data Analysis
 
+### Categorical Data Distributions
+
+- **Gender**: Includes both male (M) and female (F) students, with 175 entries for females.
+- **Nationality and Place of Birth**: Represents a wide range of nationalities and places of birth, indicating diverse cultural backgrounds.
+- **Academic Stages**: Includes lower level, middle school, and high school.
+- **GradeID**: Spans from G-02 to G-12.
+- **SectionID**: Distributed across three sections: A, B, and C.
+- **Topic**: Covers subjects like IT, Math, Arabic, Science, English, among others.
+- **Semester**: Covers both the first (F) and second (S) semesters.
+- **Parental Engagement**: Includes metrics like parent answering survey and parental satisfaction with the school.
+
+
 The dataset comprises several categorical and numerical features representing different aspects of student behavior and demographics. Key findings from the exploratory data analysis include:
 - The dataset contains no missing values, indicating completeness across all features.
 - Numerical features exhibit a wide range of engagement levels among students, with significant variance in behaviors such as raising hands and visiting resources.
