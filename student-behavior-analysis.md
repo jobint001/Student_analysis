@@ -22,13 +22,20 @@ The dataset comprises several categorical and numerical features representing di
 - The dataset contains no missing values, indicating completeness across all features.
 - Numerical features exhibit a wide range of engagement levels among students, with significant variance in behaviors such as raising hands and visiting resources.
 
-   ### Gender Distribution
+  ### Gender Distribution
 The first bar chart shows that there are more male students (denoted by 'M') than female students ('F') in the dataset.
 
-   ### Nationality Distribution
+### Nationality Distribution
 The second bar chart illustrates a diverse range of nationalities among the students. A significant majority of the students are from two nationalities, indicated by the two tallest bars. Other nationalities have a much smaller representation in comparison.
+
+
   ![Image Alt Text](figures1/fig5.png)
-  
+
+  ### Academic Landscape: Educational Levels and Subject Preferences
+   ![Image Alt Text](figures1/fig6.png)
+
+    The first chart shows the distribution across educational stages, with the largest number of students being in the middle school stage, followed by lower level, and the smallest group in high school. The second chart illustrates the popularity of subjects among students, with IT being the most favored subject, followed by other subjects like Arabic, Science, and English, indicating a varied interest in different academic disciplines.
+
   ### Histogram
   ![Image Alt Text](figures1/fig1.png)
 
