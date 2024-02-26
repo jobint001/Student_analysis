@@ -21,8 +21,7 @@ This report presents the findings from an exploratory data analysis and k-means 
 The dataset comprises several categorical and numerical features representing different aspects of student behavior and demographics. Key findings from the exploratory data analysis include:
 - The dataset contains no missing values, indicating completeness across all features.
 - Numerical features exhibit a wide range of engagement levels among students, with significant variance in behaviors such as raising hands and visiting resources.
-
-  ### Gender Distribution
+ ### Gender Distribution
 The first bar chart shows that there are more male students (denoted by 'M') than female students ('F') in the dataset.
 
 ### Nationality Distribution
@@ -34,7 +33,7 @@ The second bar chart illustrates a diverse range of nationalities among the stud
   ### Academic Landscape: Educational Levels and Subject Preferences
    ![Image Alt Text](figures1/fig6.png)
 
-    The first chart shows the distribution across educational stages, with the largest number of students being in the middle school stage, followed by lower level, and the smallest group in high school. The second chart illustrates the popularity of subjects among students, with IT being the most favored subject, followed by other subjects like Arabic, Science, and English, indicating a varied interest in different academic disciplines.
+ The first chart shows the distribution across educational stages, with the largest number of students being in the middle school stage, followed by lower level, and the smallest group in high school. The second chart illustrates the popularity of subjects among students, with IT being the most favored subject, followed by other subjects like Arabic, Science, and English, indicating a varied interest in different academic disciplines.
 
   ### Histogram
   ![Image Alt Text](figures1/fig1.png)
