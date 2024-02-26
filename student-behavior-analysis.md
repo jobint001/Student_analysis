@@ -25,6 +25,15 @@ The dataset comprises several categorical and numerical features representing di
   ### Histogram
   ![Image Alt Text](figures1/fig1.png)
 
+  - Raisedhands
+This histogram shows a bimodal distribution, with peaks around 10 and 70. This suggests there are two groups of students - those who rarely raise their hands and those who do so frequently.
+ - VisitedResources
+The histogram for VisITedResources appears right-skewed, indicating that while many students visit resources frequently (peaks around 80-100), there's a significant number who do not engage as often.
+ - AnnouncementsView
+The distribution for AnnouncementsView is less clear, but there appears to be a slight left skewness, with fewer students checking announcements very frequently, and more students doing so moderately.
+ - Discussion
+The Discussion histogram is somewhat uniform but shows slight peaks around 20 and 70, suggesting that while student participation in discussions is spread out across different frequencies, there are concentrations of students who participate either moderately or very actively.
+
 ## K-Means Clustering
 K-means clustering was applied to segment the students based on their engagement metrics. The Elbow Method suggested that 2 or 3 clusters provide a meaningful segmentation of the data.
 ![Image Alt Text](figures1/fig2.png)
