@@ -49,6 +49,65 @@ The Discussion histogram is somewhat uniform but shows slight peaks around 20 an
 
 ## K-Means Clustering
 K-means clustering was applied to segment the students based on their engagement metrics. The Elbow Method suggested that 2 or 3 clusters provide a meaningful segmentation of the data.
+
+```python
+import pandas as pd
+import numpy as np
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the dataset
+file_path = 'KMEANS_SAMPLE.csv' # Update the path according to your file system
+data = pd.read_csv(file_path)
+
+# Selecting the numerical features for clustering
+features = data[['raisedhands', 'VisITedResources', 'AnnouncementsView', 'Discussion']]
+
+# Standardizing the features
+scaler = StandardScaler()
+features_scaled = scaler.fit_transform(features)
+
+# Determining the optimal number of clusters using the Elbow Method
+inertia = []
+for k in range(1, 11):
+    kmeans = KMeans(n_clusters=k, random_state=42)
+    kmeans.fit(features_scaled)
+    inertia.append(kmeans.inertia_)
+
+# Plotting the Elbow curve
+plt.figure(figsize=(10, 6))
+plt.plot(range(1, 11), inertia, marker='o')
+plt.title('Elbow Method For Optimal k')
+plt.xlabel('Number of clusters')
+plt.ylabel('Inertia')
+plt.xticks(range(1, 11))
+plt.show()
+
+# Assuming the optimal number of clusters from the Elbow plot (update based on your observation)
+optimal_k = 3 # Update this based on the elbow plot you observe
+
+# Performing k-means clustering with the optimal number of clusters
+kmeans = KMeans(n_clusters=optimal_k, random_state=42)
+clusters = kmeans.fit_predict(features_scaled)
+
+# Adding the cluster labels to the original data
+data['Cluster'] = clusters
+
+# Analyzing the clusters
+for i in range(optimal_k):
+    cluster_data = data[data['Cluster'] == i]
+    print(f"Cluster {i}:")
+    print(cluster_data.describe(), "\n")
+
+# Optional: Visualizing the clusters for a pair of features
+plt.figure(figsize=(10, 6))
+sns.scatterplot(x='raisedhands', y='VisITedResources', hue='Cluster', data=data, palette='viridis')
+plt.title('Clusters Visualization on Raised Hands vs. Visited Resources')
+plt.show()
+```
+
 ![Image Alt Text](figures1/fig2.png)
 ### Clustering Results
 
