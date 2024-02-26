@@ -46,9 +46,11 @@ K-means clustering was applied to segment the students based on their engagement
 
 ![Image Alt Text](figures1/fig3.png)
 - **With 3 Clusters:**
-  - Cluster 0 (Highly Engaged): Students exhibit high engagement in all activities.
-  - Cluster 1 (Low Engagement): Students show minimal engagement.
-  - Cluster 2 (Moderately Engaged): Students are particularly active in resource visiting but less so in other areas.
+  - Cluster 0 (Blue): This cluster seems to contain students who have lower engagement levels, as indicated by both low raisedhands and VisitedResources scores. These students may need additional support or motivation to engage more in the classroom.
+
+  - Cluster 1 (Yellow): Students in this cluster have a moderate to high level of resource visitation but a lower frequency of raising hands. This suggests that these students may be utilizing course materials and online resources but are less likely to participate actively in class discussions or question sessions.
+
+  - Cluster 2 (Purple): This group shows high engagement in both raisedhands and VisitedResources. Students in this cluster are likely the most engaged, participating actively in class and making frequent use of the provided resources.
 
 ## Conclusion and Recommendations
 The analysis reveals distinct segments within the student population based on their engagement levels. These insights can inform targeted strategies to enhance educational outcomes. Recommendations for interventions are tailored to each cluster's characteristics, aiming to boost engagement and participation.
