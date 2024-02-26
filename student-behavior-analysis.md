@@ -54,9 +54,9 @@ K-means clustering was applied to segment the students based on their engagement
 The analysis reveals distinct segments within the student population based on their engagement levels. These insights can inform targeted strategies to enhance educational outcomes. Recommendations for interventions are tailored to each cluster's characteristics, aiming to boost engagement and participation.
 
 ### Recommendations for Educational Strategies
-Highly Engaged Students (Cluster 0 in 3-cluster solution): Continue to provide challenging and engaging materials and opportunities for discussions to keep these students stimulated.
-Low Engagement Students (Cluster 1 in 3-cluster solution): Implement interventions aimed at increasing engagement, such as personalized learning paths, gamification, and more interactive resources.
-Moderately Engaged Students (Cluster 2 in 3-cluster solution): Encourage more participation in discussions and classroom activities through group projects or peer-learning opportunities to increase their overall engagement.
+- Highly Engaged Students (Cluster 0 in 3-cluster solution): Continue to provide challenging and engaging materials and opportunities for discussions to keep these students stimulated.
+- Low Engagement Students (Cluster 1 in 3-cluster solution): Implement interventions aimed at increasing engagement, such as personalized learning paths, gamification, and more interactive resources.
+- Moderately Engaged Students (Cluster 2 in 3-cluster solution): Encourage more participation in discussions and classroom activities through group projects or peer-learning opportunities to increase their overall engagement.
 This detailed analysis and the insights derived from it could be incorporated into a comprehensive report for stakeholders interested in improving student engagement and learning outcomes.
 
 
