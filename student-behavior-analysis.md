@@ -21,7 +21,13 @@ This report presents the findings from an exploratory data analysis and k-means 
 The dataset comprises several categorical and numerical features representing different aspects of student behavior and demographics. Key findings from the exploratory data analysis include:
 - The dataset contains no missing values, indicating completeness across all features.
 - Numerical features exhibit a wide range of engagement levels among students, with significant variance in behaviors such as raising hands and visiting resources.
+  ### Gender Distribution
+The first bar chart shows that there are more male students (denoted by 'M') than female students ('F') in the dataset.
 
+  ### Nationality Distribution
+The second bar chart illustrates a diverse range of nationalities among the students. A significant majority of the students are from two nationalities, indicated by the two tallest bars. Other nationalities have a much smaller representation in comparison.
+  ![Image Alt Text](figures1/fig5.png)
+  
   ### Histogram
   ![Image Alt Text](figures1/fig1.png)
 
