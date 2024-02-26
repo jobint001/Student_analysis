@@ -18,11 +18,12 @@ K-means clustering was applied to segment the students based on their engagement
 ![Image Alt Text](figures1/fig2.png)
 ### Clustering Results
 
-![Image Alt Text](figures1/fig3.png)
+![Image Alt Text](figures1/fig4.png)
 - **With 2 Clusters:**
   - Cluster 0 identifies students with lower overall engagement.
   - Cluster 1 includes students with higher engagement across all metrics.
 
+![Image Alt Text](figures1/fig3.png)
 - **With 3 Clusters:**
   - Cluster 0 (Highly Engaged): Students exhibit high engagement in all activities.
   - Cluster 1 (Low Engagement): Students show minimal engagement.
@@ -31,7 +32,7 @@ K-means clustering was applied to segment the students based on their engagement
 ## Conclusion and Recommendations
 The analysis reveals distinct segments within the student population based on their engagement levels. These insights can inform targeted strategies to enhance educational outcomes. Recommendations for interventions are tailored to each cluster's characteristics, aiming to boost engagement and participation.
 
-For a detailed strategy implementation and further analysis, stakeholders are encouraged to consider the nuances of each cluster.
+
 
 ---
 
