@@ -4,10 +4,14 @@
 ## Introduction
 This report presents the findings from an exploratory data analysis and k-means clustering of a dataset concerning student behavior. The dataset includes various metrics indicative of student engagement, such as the number of times students raised their hands, visited resources, viewed announcements, and participated in discussions.
 
-## Exploratory Data Analysis Summary
+## Exploratory Data Analysis
+
 The dataset comprises several categorical and numerical features representing different aspects of student behavior and demographics. Key findings from the exploratory data analysis include:
 - The dataset contains no missing values, indicating completeness across all features.
 - Numerical features exhibit a wide range of engagement levels among students, with significant variance in behaviors such as raising hands and visiting resources.
+
+  ### Histogram
+  ![Image Alt Text](figures1/fig1.png)
 
 ## K-Means Clustering
 K-means clustering was applied to segment the students based on their engagement metrics. The Elbow Method suggested that 2 or 3 clusters provide a meaningful segmentation of the data.
