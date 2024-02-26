@@ -17,6 +17,8 @@ The dataset comprises several categorical and numerical features representing di
 K-means clustering was applied to segment the students based on their engagement metrics. The Elbow Method suggested that 2 or 3 clusters provide a meaningful segmentation of the data.
 ![Image Alt Text](figures1/fig2.png)
 ### Clustering Results
+
+![Image Alt Text](figures1/fig3.png)
 - **With 2 Clusters:**
   - Cluster 0 identifies students with lower overall engagement.
   - Cluster 1 includes students with higher engagement across all metrics.
