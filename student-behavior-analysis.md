@@ -41,8 +41,11 @@ K-means clustering was applied to segment the students based on their engagement
 
 ![Image Alt Text](figures1/fig4.png)
 - **With 2 Clusters:**
-  - Cluster 0 identifies students with lower overall engagement.
-  - Cluster 1 includes students with higher engagement across all metrics.
+  - Cluster 0 (Dark Blue): This cluster primarily consists of students with lower levels of engagement, as shown by lower numbers of raised hands and fewer visits to resources. These students are clustered towards the bottom left corner of the plot, indicating minimal participation in class (as measured by raised hands) and possibly less utilization of available resources for learning.
+
+  - Cluster 1 (Green): Students in this cluster have a higher level of engagement, with a wider spread along the raisedhands axis and generally higher values on the VisitedResources axis. This suggests that these students are more active in their learning process, both in terms of in-class participation and accessing learning materials.
+
+
 
 ![Image Alt Text](figures1/fig3.png)
 - **With 3 Clusters:**
